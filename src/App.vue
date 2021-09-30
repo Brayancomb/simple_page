@@ -59,6 +59,14 @@ export default {
 };
 </script>
 <style lang="scss">
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
 
 main{
   background-image: url(./assets/Background.png);
@@ -122,5 +130,6 @@ main{
   .portal{
     width: 170px;
   }
+  
 }
 </style>

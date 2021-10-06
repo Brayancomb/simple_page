@@ -117,6 +117,8 @@ main{
     transition: 0.3s all ease-in-out;
     &:hover{
       margin-top:-40px;
+      border-style: solid;
+      border-color:  #00A2FF;
     }
   }
   &__header {
